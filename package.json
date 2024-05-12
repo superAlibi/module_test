@@ -7,8 +7,16 @@
   "module": "dist/index.js",
   "types": "dist/mod.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./src": "./src/mod.ts"
+  },
   "scripts": {
     "test": "vitest",
     "dev": "vite",
