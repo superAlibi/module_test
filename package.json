@@ -1,0 +1,37 @@
+{
+  "name": "module_test",
+  "version": "1.0.0",
+  "description": "模块测试",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/mod.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:alibi-jia/pakage_module.git"
+  },
+  "keywords": [
+    "umd",
+    "amd",
+    "esmodule",
+    "commonjs"
+  ],
+  "author": "alibi_jia@foxmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.6.0"
+  }
+}
