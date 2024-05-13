@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@webgpu/types':
+        specifier: ^0.1.40
+        version: 0.1.40
     devDependencies:
       '@types/node':
         specifier: ^20.12.11
@@ -373,6 +377,9 @@ packages:
 
   '@vue/shared@3.4.27':
     resolution: {integrity: sha512-DL3NmY2OFlqmYYrzp39yi3LDkKxa5vZVwxWdQ3rG0ekuWscHraeIbnI8t+aZK7qhYqEqWKTUdijadunb9pnrgA==}
+
+  '@webgpu/types@0.1.40':
+    resolution: {integrity: sha512-/BBkHLS6/eQjyWhY2H7Dx5DHcVrS2ICj9owvSRdgtQT6KcafLZA86tPze0xAOsd4FbsYKCUBUQyNi87q7gV7kw==}
 
   acorn-walk@8.3.2:
     resolution: {integrity: sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==}
@@ -1169,6 +1176,8 @@ snapshots:
       typescript: 5.4.5
 
   '@vue/shared@3.4.27': {}
+
+  '@webgpu/types@0.1.40': {}
 
   acorn-walk@8.3.2: {}
 

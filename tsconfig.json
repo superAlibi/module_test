@@ -10,7 +10,7 @@
     "useDefineForClassFields": false,
     "module": "ESNext",
     "lib": [
-      "ES2020",
+      "ESNext",
       "DOM",
       "DOM.Iterable"
     ],
@@ -19,18 +19,22 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "declaration":true,
+    "declaration": true,
     "emitDeclarationOnly": true,
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "outDir": "dist/types"
+    "outDir": "dist/types",
+    "types": [
+      "@webgpu/types"
+    ]
   },
   "include": [
-    "src/**/*.ts"
-, "main.ts"  ],
+    "src/**/*.ts",
+    "main.ts"
+  ],
   "exclude": [
     "src/**/*.test.ts"
   ]

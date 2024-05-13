@@ -22,7 +22,7 @@ export default defineConfig({
       entry: resolve(__dirname, './src/mod.ts'),
       name: 'module_test',
       fileName: 'module_test',
-      formats: ['es', 'cjs', 'iife']
+      formats: ['es']
     }
   },
   test: {
